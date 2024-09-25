@@ -1,21 +1,21 @@
 colores = "Rojo", "Azul", "Amarillo"
-mixta = 10, "Valor", True, colores
+mixta = 10, "Valor", True, colores #Una tupla puede contener otras tuplas
 
-print(mixta[2:4])
-print(mixta[0])
-print(mixta[3][1])
+print(f"Rebanadas: {mixta[2:4]}") #Se pueden usar rebanadas
+print(f"Primer valor de la tupla: {mixta[0]}")
+print(f"Acceder a valores de la tupla colores: {mixta[3][1]}")
 
 print()
 
-for variable in mixta:
+for variable in mixta: #Se puede iterar con un ciclo
     print(variable, end=" ")
 
 print("\n\n")
 
-color1, color2, color3 = colores
+color1, color2, color3 = colores #Desempaquetado
 print(color1, color2, color3)
 
-pintura = (color3, color2, color1)
+pintura = (color3, color2, color1) #Empaquetado
 print(pintura)
 
 numeros = 1, 20, 1, 3, 10

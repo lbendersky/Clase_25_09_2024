@@ -14,5 +14,5 @@ numeros += 6, #concatena una tupla con otra solamente, provoca un TypeError si n
 
 print(numeros)
 
-print(3 in numeros)
-print(10 not in numeros)
+print(3 in numeros) #Verifica si 3 se encuentra en la tupla devuelve un valor booleano
+print(10 not in numeros) #verifica si 10 no esta en la tupla devuelve un valor booleano
